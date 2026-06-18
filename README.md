@@ -32,7 +32,7 @@ Built with a modular architecture using **LangGraph** for workflow orchestration
 *   Python 3.9+
 *   MongoDB (Local or Cloud)
 *   Qdrant (Optional, FAISS fallback available)
-*   API Keys:Groq, and Tavily
+*   API Keys:Groqand Tavily
 
 ## ⚙️ Installation & Setup
 
