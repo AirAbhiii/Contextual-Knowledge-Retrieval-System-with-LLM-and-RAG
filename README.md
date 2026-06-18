@@ -1,7 +1,5 @@
 # Contextual Knowledge Retrieval System with LLM and RAG
 
-![Project Logo](Contextual-Knowledge-Retrieval-System-with-LLM-and-RAG.png)
-
 An intelligent, end-to-end Retrieval-Augmented Generation (RAG) system powered by an agentic AI architecture. This system features dynamic query routing, intelligent document retrieval, and advanced LLM capabilities to provide accurate, context-aware answers.
 
 ## 🌟 Overview
@@ -26,7 +24,7 @@ Built with a modular architecture using **LangGraph** for workflow orchestration
 *   **Frontend**: Streamlit
 *   **Vector DB**: Qdrant / FAISS
 *   **Database**: MongoDB
-*   **LLMs**: OpenAI / Groq
+*   **LLMs**: Groq
 *   **Search**: Tavily
 
 ## 📋 Prerequisites
@@ -34,7 +32,7 @@ Built with a modular architecture using **LangGraph** for workflow orchestration
 *   Python 3.9+
 *   MongoDB (Local or Cloud)
 *   Qdrant (Optional, FAISS fallback available)
-*   API Keys: OpenAI, Groq, and Tavily
+*   API Keys:Groq, and Tavily
 
 ## ⚙️ Installation & Setup
 
@@ -59,7 +57,6 @@ Built with a modular architecture using **LangGraph** for workflow orchestration
 4.  **Configure Environment Variables**:
     Create a `.env` file in the root directory and add your keys:
     ```env
-    OPENAI_API_KEY=your_openai_key
     GROQ_API_KEY=your_groq_key
     TAVILY_API_KEY=your_tavily_key
     MONGODB_URL=mongodb://localhost:27017
@@ -85,11 +82,3 @@ streamlit run streamlit_app/home.py
 3.  Upload PDF or TXT documents to build your knowledge base.
 4.  Ask questions! The system will decide whether to use your documents, its internal knowledge, or the web.
 
-## 📄 License
-
-This project is licensed under the MIT License.
-
-## 👤 Author
-
-**AirAbhiii**
-- GitHub: [@AirAbhiii](https://github.com/AirAbhiii)
