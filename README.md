@@ -1,5 +1,7 @@
 # Contextual Knowledge Retrieval System with LLM and RAG
 
+![Project Logo](Contextual-Knowledge-Retrieval-System-with-LLM-and-RAG.png)
+
 An intelligent, end-to-end Retrieval-Augmented Generation (RAG) system powered by an agentic AI architecture. This system features dynamic query routing, intelligent document retrieval, and advanced LLM capabilities to provide accurate, context-aware answers.
 
 ## 🌟 Overview
