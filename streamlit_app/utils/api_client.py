@@ -10,7 +10,7 @@ import requests
 logger = logging.getLogger(__name__)
 
 # Backend service URLs
-PYTHON_BASE_URL = "http://127.0.0.1:8000"
+PYTHON_BASE_URL = os.getenv("BACKEND_URL", "http://127.0.0.1:8000")
 RUST_BASE_URL = PYTHON_BASE_URL + "/auth" # Fallback if needed
 
 
