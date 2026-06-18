@@ -1,7 +1,7 @@
-# Adaptive RAG - Code Style Guide
+# Contextual Knowledge Retrieval System - Code Style Guide
 
 ## Overview
-This document provides guidelines for maintaining consistent code quality and style across the Adaptive RAG project.
+This document provides guidelines for maintaining consistent code quality and style across the Contextual Knowledge Retrieval System project.
 
 ## General Guidelines
 
@@ -91,7 +91,7 @@ def process(q):
 
 ```python
 MONGO_URL = "mongodb://localhost:27017"
-DB_NAME = "adaptive_rag"
+DB_NAME = "contextual_knowledge_retrieval"
 COLLECTION_NAME = "documents"
 ```
 

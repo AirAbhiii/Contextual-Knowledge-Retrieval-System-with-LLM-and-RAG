@@ -42,7 +42,7 @@
 ## 📂 Project Structure
 
 ```
-AdaptiveRag/
+ContextualKnowledgeRetrievalSystem/
 ├── README.md                          # Original project docs
 ├── README_FORMATTING.md               # Formatting overview ⭐
 ├── FORMATTING_SUMMARY.md              # Detailed changes

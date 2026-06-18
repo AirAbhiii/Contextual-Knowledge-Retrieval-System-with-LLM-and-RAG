@@ -46,14 +46,14 @@ After verification, you'll be redirected to the Qdrant Cloud dashboard.
 ### **2.2 Create Your First Cluster**
 1. Click **"Create cluster"** or **"New Cluster"**
 2. Choose **"Free Tier"** plan
-   - **Name**: `adaptive-rag-dev` (or your preferred name)
+   - **Name**: `contextual-knowledge-retrieval-system-dev` (or your preferred name)
    - **Provider**: Choose the closest region (e.g., `AWS us-east-1`)
    - **Version**: Latest stable version
 
 ### **2.3 Configure Cluster**
 ```
 Cluster Configuration:
-├── Name: adaptive-rag-dev
+├── Name: contextual-knowledge-retrieval-system-dev
 ├── Provider: AWS/GCP/Azure (choose closest)
 ├── Region: us-east-1 / eu-west-1 / etc.
 ├── Version: Latest (e.g., v1.9.x)
@@ -76,7 +76,7 @@ Cluster Configuration:
 ### **3.2 Create API Key**
 ```
 API Key Configuration:
-├── Name: adaptive-rag-key
+├── Name: contextual-knowledge-retrieval-system-key
 ├── Permissions: Full Access (for development)
 └── Expiration: Never (or set as needed)
 ```
